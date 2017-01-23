@@ -298,6 +298,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     sensors.msm8996
 
+# VR
+PRODUCT_PACKAGES += \
+    vr.msm8996
+
 # Wifi
 PRODUCT_PACKAGES += \
     ipacm \
