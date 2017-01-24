@@ -18,6 +18,7 @@ It was announced in February 2016. Release date was June 2016.
 | GPU          | 624MHz Adreno 530                               |
 | Memory       | 6 GB RAM (LPDDR4 1866MHz dual-channel)          |
 | Shipped Android version | 6.0                                             |
+| Latest LinOS Android Version | 7.1.1	                         |
 | Storage      | 64 GB (UFS 2.0 Flash)                           |
 | Battery      | Non-removable Li-Po 3000 mAh                    |
 | Dimensions   | 152.7 x 74.7 x 7.35 mm                          |
