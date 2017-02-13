@@ -26,6 +26,8 @@ OnePlus 3T was announced in November 2016. Release date was November 2016.
 | Display      | 1920 x 1080 px, 5.5 inches (401 PPI)            | 1920 x 1080 px, 5.5 inches (401 PPI)            |
 | Rear camera  | 16 MPx, f/2.0, PDAF autofocus, LED flash                  | 16 MPx, f/2.0, PDAF autofocus, LED flash                  |
 | Front camera | 8 MPx, f/2.0                                    | 16 MPx, f/2.0                                   |
+| VR/Vulkan    | Yes 						 | Yes						   |
+| Latest LinOS | 20170124					 | Not yet 					   |
 
 ## Device picture
 
