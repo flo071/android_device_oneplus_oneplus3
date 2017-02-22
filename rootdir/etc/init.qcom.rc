@@ -101,10 +101,12 @@ on boot
     mkdir /persist/time 0770 system system
 
     # GPU Tuning
-    chown root system /sys/class/kgsl/kgsl-3d0/dispatch/inflight
-    chmod 0660 /sys/class/kgsl/kgsl-3d0/dispatch/inflight
-    chown root system /sys/class/kgsl/kgsl-3d0/dispatch/inflight_low_latency
-    chmod 0660 /sys/class/kgsl/kgsl-3d0/dispatch/inflight_low_latency
+    chown system system /sys/class/kgsl/kgsl-3d0/devfreq/max_freq
+    chmod 0660 /sys/class/kgsl/kgsl-3d0/devfreq/max_freq
+    chown system system /sys/class/kgsl/kgsl-3d0/devfreq/min_freq
+    chmod 0660 /sys/class/kgsl/kgsl-3d0/devfreq/min_freq
+    chown system system /sys/class/devfreq/soc:qcom,gpubw/min_freq
+    chmod 0660 /sys/class/devfreq/soc:qcom,gpubw/min_freq
 
     #Create NETMGR daemon socket area
     mkdir /dev/socket/netmgr 0750 radio radio

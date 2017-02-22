@@ -275,6 +275,7 @@ PRODUCT_PACKAGES += \
 # Power
 PRODUCT_PACKAGES += \
     power.msm8996
+		thermal.msm8996
 
 # QMI
 PRODUCT_PACKAGES += \
@@ -301,6 +302,10 @@ PRODUCT_PACKAGES += \
 # Sensors
 PRODUCT_PACKAGES += \
     sensors.msm8996
+
+# Thermal
+PRODUCT_COPY_FILES += \
+		$(LOCAL_PATH)/configs/thermal-engine-8996.conf:system/etc/thermal-engine-8996.conf
 
 # VR
 PRODUCT_PACKAGES += \
