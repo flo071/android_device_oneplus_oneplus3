@@ -29,7 +29,7 @@
 
 #define MAX_LENGTH                    50
 
-#define CPU_USAGE_FILE                "/proc/stat"
+#define CPU_USAGE_FILE                "/proc/shedstat"
 #define TEMPERATURE_FILE_FORMAT       "/sys/class/thermal/thermal_zone%d/temp"
 #define CPU_ONLINE_FILE_FORMAT        "/sys/devices/system/cpu/cpu%d/online"
 
@@ -48,7 +48,6 @@ const int CPU_SENSORS[] = {4, 6, 9, 11};
 //qcom, limit-temp
 #define CPU_THROTTLING_THRESHOLD      60
 #define BATTERY_SHUTDOWN_THRESHOLD    60
-// device/google/marlin/thermal-engine-marlin.conf
 #define SKIN_THROTTLING_THRESHOLD     44
 #define SKIN_SHUTDOWN_THRESHOLD       70
 #define VR_THROTTLED_BELOW_MIN        58
@@ -273,7 +272,7 @@ thermal_module_t HAL_MODULE_INFO_SYM = {
         .module_api_version = THERMAL_HARDWARE_MODULE_API_VERSION_0_1,
         .hal_api_version = HARDWARE_HAL_API_VERSION,
         .id = THERMAL_HARDWARE_MODULE_ID,
-        .name = "G5 Thermal HAL",
+        .name = "OnePlus3/3T Thermal HAL",
         .author = "The Android Open Source Project",
         .methods = &thermal_module_methods,
     },
