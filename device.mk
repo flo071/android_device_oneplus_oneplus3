@@ -157,7 +157,8 @@ PRODUCT_COPY_FILES += \
 
 # Camera
 PRODUCT_PACKAGES += \
-    Snap
+    Snap \
+    libcamera_shim
 
 # Connectivity Engine support (CNE)
 PRODUCT_PACKAGES += \
@@ -295,6 +296,10 @@ PRODUCT_PACKAGES += \
     init.qcom.usb.sh \
     init.target.rc \
     ueventd.qcom.rc
+
+# Recovery
+PRODUCT_PACKAGES += \
+    librecovery_updater_op3
 
 # RIL
 PRODUCT_PACKAGES += \
